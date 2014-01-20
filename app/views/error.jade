@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2 404 Error
+  p We couldn't find anything at "#{ctx.url}".
+  p You're welcome to try again, but maybe "#{ctx.url}" just doesn't exist.
+  - if(!ctx.env || ctx.env == 'development')
+    p Method: #{ctx.method}, url: <a href="http://#{ctx.header.host}#{ctx.url}">http://#{ctx.header.host}#{ctx.url}</a>
+    code= JSON.stringify(ctx)

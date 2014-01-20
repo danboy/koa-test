@@ -1,0 +1,22 @@
+{
+  "name": "supertest-example",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --harmony start.js",
+    "test": "mocha --harmony -wcG"
+  },
+  "dependencies": {
+    "co-fs": "*",
+    "koa": "*",
+    "jade": "*",
+    "koa-render": "*",
+    "koa-render": "*",
+    "nconf": "~0.6.9",
+    "mongoose": "~3.8.4",
+    "googleapis": "*"
+  },
+  "devDependencies": {
+    "supertest": "~0.8.3",
+    "mocha": "~1.17.0"
+  }
+}
