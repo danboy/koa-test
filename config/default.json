@@ -1,0 +1,11 @@
+{
+  "database": {
+    "url": "mongodb://localhost/tdd-koa",
+    "options": {  
+      "server": {
+        "auto_reconnect": true,
+        "poolSize": 10
+      }
+    }
+  } 
+}

@@ -10,7 +10,9 @@
     "koa": "*",
     "jade": "*",
     "koa-render": "*",
-    "koa-render": "*",
+    "koa-router": "*",
+    "koa-static": "*",
+    "koa-stylus": "*",
     "nconf": "~0.6.9",
     "mongoose": "~3.8.4",
     "googleapis": "*"

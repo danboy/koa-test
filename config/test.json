@@ -1,5 +1,5 @@
 {
   database: {
-    url: 'mongodb://localhost/tdd-koa-test'
+    url: 'mongodb://localhost/tdd-koa'
   } 
 }
