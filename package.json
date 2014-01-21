@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "supertest": "~0.8.3",
+    "expect.js": "*",
     "mocha": "~1.17.0"
   }
 }
